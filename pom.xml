@@ -41,6 +41,7 @@
                 </execution>
                 </executions>
                 <configuration>
+                    <classifier>without</classifier>
                     <descriptorRefs>
                         <descriptorRef>jar-with-dependencies</descriptorRef>
                     </descriptorRefs>
@@ -50,9 +51,6 @@
                         </manifest>
                     </archive>
                 </configuration>
-
-
-
             </plugin>
         </plugins>
     </build>
